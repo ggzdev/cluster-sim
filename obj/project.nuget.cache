@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kr0zbTCSE6yj/cuBATA7ZfIODl2RY6dVNOZ1ZyDc4NUh5eaq1mh/RXaRybjkO/UWceok6thnfhXnwvZIhg6PjA==",
+  "dgSpecHash": "a0dAHvzPxwDllajwSsxJDcm4bO17E4I2Lgd3OtWbxj5Gdev6gOtErgeOIf5tFf8WwUw7yBfmPeZLNnAzrc0Usg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj",
+  "projectFilePath": "C:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\schma\\.nuget\\packages\\clickabletransparentoverlay\\9.1.0\\clickabletransparentoverlay.9.1.0.nupkg.sha512",
     "C:\\Users\\schma\\.nuget\\packages\\csfml\\2.5.2\\csfml.2.5.2.nupkg.sha512",

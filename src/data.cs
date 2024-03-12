@@ -25,8 +25,15 @@ using SFML.Window;
 
 namespace cluster_sim.data {
     public static class cluster_sim_data {
+
+        public static string application_title = "cluster-sim";
         
-        public static string application_version = "v0.0.1-pre-alpha";
+        public static int version_major = 0;
+        public static int version_minor = 0;
+        public static int version_micro = 1;
+        public static string version_flag = "-pre-alpha";
+        public static string application_version = $"v{version_major}.{version_minor}.{version_micro}{version_flag}";
+        
         public static string application_copyright = "Copyright (c) 2024 Kian Schmalzl. All rights reserved.";
     }
 }

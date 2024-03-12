@@ -22,10 +22,26 @@ using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 
+using cluster_sim.data;
+
 namespace cluster_sim.graphics {
     public static class sfml_proc_handler {
         public static void init() {
+            VideoMode screen_dc = new VideoMode(1200, 700);
+            RenderWindow display = new RenderWindow(screen_dc, cluster_sim_data.application_title + cluster_sim_data.application_version, Styles.Titlebar);
+
+            SettingsPatcher.patch(display);
             
+            while(true) {
+                if(!Cache.sfml_windowOpen) {
+                    display.Close();
+                    Environment.Exit(0);
+                }
+
+                display.DispatchEvents();
+                display.Clear(Color.Black);
+                display.Display();
+            }
         }
     }
 }

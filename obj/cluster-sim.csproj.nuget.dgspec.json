@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj": {}
+    "C:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj": {}
   },
   "projects": {
-    "c:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj": {
+    "C:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj",
+        "projectUniqueName": "C:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj",
         "projectName": "cluster-sim",
-        "projectPath": "c:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj",
+        "projectPath": "C:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj",
         "packagesPath": "C:\\Users\\schma\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\schma\\Desktop\\cluster-sim\\obj\\",
+        "outputPath": "C:\\Users\\schma\\Desktop\\cluster-sim\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\schma\\AppData\\Roaming\\NuGet\\NuGet.Config"
