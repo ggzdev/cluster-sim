@@ -22,11 +22,17 @@ using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 
+using cluster_sim.data;
+
 
 namespace cluster_sim.graphics {
     public static class ImGuiContent {
         public static void render_content() {
             ImGui.Begin("cluster-sim controller");
+            ImGui.TextDisabled($"Version: {cluster_sim_data.application_version}");
+            ImGui.TextDisabled($"Currently loaded: CLUSTER_NAME");
+            ImGui.Dummy(new Vector2(x: 0, y: 2.5f));
+            
             ImGui.End();
         }
     }
