@@ -1,4 +1,4 @@
-﻿// cluster-sim -- an open-source, highly customizable instrument cluster simulator
+// cluster-sim -- an open-source, highly customizable instrument cluster simulator
 // Copyright (c) 2024 Kian Schmalzl. All rights reserved. Licensed under MIT-License
 // https://www.github.com/ggzdev/cluster-sim
 
@@ -22,16 +22,17 @@ using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 
+using cluster_sim.graphics;
+
 
 namespace cluster_sim.launcher {
-    public class Program : Overlay {
-        protected override void Render() {
+    public static class ThreadManager {
+        public static void init_threads() {
+            Thread imgui = new Thread(() => imgui_proc_handler.init());
+            Thread sfml = new Thread(() => sfml_proc_handler.init());
 
-        }
-
-        private static void Main(string[] args) {
-            StartupMessageHandler.show_message();
-            ThreadManager.init_threads();
+            imgui.Start();
+            sfml.Start();
         }
     }
 }

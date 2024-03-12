@@ -1,4 +1,4 @@
-﻿// cluster-sim -- an open-source, highly customizable instrument cluster simulator
+// cluster-sim -- an open-source, highly customizable instrument cluster simulator
 // Copyright (c) 2024 Kian Schmalzl. All rights reserved. Licensed under MIT-License
 // https://www.github.com/ggzdev/cluster-sim
 
@@ -23,15 +23,10 @@ using SFML.System;
 using SFML.Window;
 
 
-namespace cluster_sim.launcher {
-    public class Program : Overlay {
-        protected override void Render() {
-
-        }
-
-        private static void Main(string[] args) {
-            StartupMessageHandler.show_message();
-            ThreadManager.init_threads();
-        }
+namespace cluster_sim.data {
+    public static class cluster_sim_data {
+        
+        public static string application_version = "v0.0.1-pre-alpha";
+        public static string application_copyright = "Copyright (c) 2024 Kian Schmalzl. All rights reserved.";
     }
 }
