@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cluster-sim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bc41d79b696c1fb99f993bede82e34b439ef72c")]
 [assembly: System.Reflection.AssemblyProductAttribute("cluster-sim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cluster-sim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

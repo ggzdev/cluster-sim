@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nkdKooC0XxsByG8HTiRp7x9OLbKrv8ENYKvzIMOBTKqgpDOri9+uAtaDfJ7EWROE5m9NU1t8aMyh6Beo0XBURw==",
+  "dgSpecHash": "STPrn/QpK48nM1PH0Qan6zPykLWxd/GWlum/weSfPxxEk4FLejO5vRRSA7s84ZwgvBIyYkxkJLWaarNJDZYF7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\schma\\Desktop\\cluster-sim\\cluster-sim.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\schma\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.2\\microsoft.netcore.app.runtime.win-x86.8.0.2.nupkg.sha512",
+    "C:\\Users\\schma\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.2\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.2.nupkg.sha512",
+    "C:\\Users\\schma\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.2\\microsoft.aspnetcore.app.runtime.win-x86.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
