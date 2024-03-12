@@ -22,20 +22,14 @@ using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 
-using cluster_sim.data;
-
 
 namespace cluster_sim.graphics {
-    public static class ImGuiContent {
-        public static void render_content() {
-            ImGui.Begin("cluster-sim controller");
-            ImGui.TextDisabled($"Version: {cluster_sim_data.application_version}");
-            ImGui.TextDisabled($"Currently loaded: CLUSTER_NAME");
-            ImGui.Dummy(new Vector2(x: 0, y: 2.5f));
-            
-            
-
-            ImGui.End();
+    public static class Graphics {
+        public static void draw_line(Vector2f point1, Vector2f point2, Color col, RenderWindow display) {
+            VertexArray line = new VertexArray(PrimitiveType.Lines, 2);
+            line[0] = new Vertex(point1, col);
+            line[1] = new Vertex(point2, col);
+            display.Draw(line);
         }
     }
 }
