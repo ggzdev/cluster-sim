@@ -22,11 +22,13 @@ using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 
+using cluster_sim.graphics;
+
 
 namespace cluster_sim.launcher {
     public class Program : Overlay {
         protected override void Render() {
-
+            ImGuiContent.render_content();
         }
 
         private static void Main(string[] args) {

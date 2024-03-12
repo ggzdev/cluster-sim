@@ -22,13 +22,12 @@ using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 
-using cluster_sim.launcher;
 
 namespace cluster_sim.graphics {
-    public static class imgui_proc_handler {
-        public static void init() {
-            Program prgm = new Program();
-            prgm.Start().Wait();
+    public static class ImGuiContent {
+        public static void render_content() {
+            ImGui.Begin("cluster-sim controller");
+            ImGui.End();
         }
     }
 }
