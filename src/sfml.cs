@@ -31,15 +31,18 @@ namespace cluster_sim.graphics {
             RenderWindow display = new RenderWindow(screen_dc, cluster_sim_data.application_title + cluster_sim_data.application_version, Styles.Titlebar);
 
             SettingsPatcher.patch(display);
-            
+            render_loop(display);
+        }
+
+        public static void render_loop(RenderWindow display) {
             while(true) {
                 if(!Cache.sfml_windowOpen) {
                     display.Close();
                     Environment.Exit(0);
                 }
 
-                display.DispatchEvents();
-                display.Clear(Color.Black);
+                EventHandler.recieve(display);
+                SFMLContent.push(display);
                 display.Display();
             }
         }
