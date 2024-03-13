@@ -31,5 +31,16 @@ namespace cluster_sim.graphics {
             line[1] = new Vertex(point2, col);
             display.Draw(line);
         }
+
+        public static void draw_circleOutline(Vector2f center, float radius, Color outline_col, int line_width, RenderWindow display) {
+            CircleShape circle = new CircleShape();
+            circle.Position = center;
+            circle.Radius = radius;
+            circle.FillColor = Color.Transparent;
+            circle.OutlineColor = outline_col;
+            circle.OutlineThickness = line_width;
+
+            display.Draw(circle);
+        }
     }
 }
